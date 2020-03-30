@@ -1,0 +1,54 @@
+
+/* setbackground and text color for the main app page*/
+html, body {
+    height: 100%;
+    color: #61DAFB;
+    background: #2D2D2D;
+}
+/* Set styling for the header elements*/
+h1, h3 {
+    margin: 20px 0 15px 0;
+    text-align: center;
+}
+
+/* set  styling for the main elements*/
+#main {
+    width: 650px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* sets list style for all unordered lists to none */
+ul {
+    list-style: none;
+}
+
+/* set color for when list items are hovered over */
+    ul > li:hover {
+        background-color: #eff386;
+    }
+
+    /* set styling for input forms*/
+.form-inline .form-control {
+    width: 50%;
+    margin-left: 80px;
+}
+
+/* this styling shows whether the item has been marked as done or not 
+    using a boolean value for the react component  to determine whether or not the item is marked as "Done"
+*/
+
+/* .done class - changes color to red and adds the line-through text style*/
+.done {
+    color: red;
+    text-decoration: line-through;
+}
+/* undone class - item is shown in the original color without the linethrough style*/
+.undone {
+    color: #61DAFB;
+}
+
+/* set margins for the icon elements*/
+.icon {
+    margin: 6px 10px 6px 0;
+}
